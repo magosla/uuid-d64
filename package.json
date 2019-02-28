@@ -1,6 +1,6 @@
 {
   "name": "uuid-d64",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Codec for uuid and d64",
   "main": "lib/index.js",
   "scripts": {
