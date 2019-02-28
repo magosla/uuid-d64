@@ -9,9 +9,3 @@ test(t => {
 
   t.is(id, decoded);
 });
-
-test('invalid parameter to encode should throw an error', t => {
-  t.throws(() => {
-    encode('blahblah');
-  }, 'invalid uuid');
-});

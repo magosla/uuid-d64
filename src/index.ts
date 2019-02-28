@@ -1,6 +1,5 @@
 import * as d64 from 'd64';
 
-const testRegex = /([0-9a-fA-F]{8})-([0-9a-fA-F]{4})-([0-9a-fA-F]{4})-([0-9a-fA-F]{4})-([0-9a-fA-F]{12})/
 const _bytesToHex: string[] = [];
 
 for (let i = 0; i < 256; i++) {
@@ -8,7 +7,6 @@ for (let i = 0; i < 256; i++) {
 }
 
 export const encode = (uuid: string) => {
-  if (testRegex.test(uuid) === false) throw new TypeError('invalid uuid');
   return d64.encode(Buffer.from(uuid.split('-').join(''), 'hex'));
 }
 
