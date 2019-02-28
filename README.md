@@ -1,6 +1,6 @@
-uuid-64
+uuid-d64
 =====
-> Codec between uuid and d64
+> Compression codec for uuid to d64
 
 ## Install
 ```
@@ -34,14 +34,16 @@ Type: `String`
 ## Benchmark
 ```
 $ node bench.js
-check x 240,661 ops/sec ±0.84% (89 runs sampled)
-uuid-d64 x 724,673 ops/sec ±0.78% (94 runs sampled)
-uuid-base64 x 419,574 ops/sec ±0.83% (92 runs sampled)
+check x 235,406 ops/sec ±1.00% (88 runs sampled)
+uuid-d64 x 690,540 ops/sec ±0.81% (96 runs sampled)
+uuid-base64 x 395,159 ops/sec ±0.91% (91 runs sampled)
+slugid x 322,243 ops/sec ±20.00% (93 runs sampled)
 Fastest encoder is uuid-d64
-check x 335,976 ops/sec ±45.06% (86 runs sampled)
-uuid-d64 x 1,400,018 ops/sec ±1.56% (89 runs sampled)
-uuid-base64 x 1,330,022 ops/sec ±2.11% (85 runs sampled)
-Fastest decoder is uuid-d64
+check x 444,387 ops/sec ±1.11% (88 runs sampled)
+uuid-d64 x 1,244,674 ops/sec ±1.58% (86 runs sampled)
+uuid-base64 x 1,221,695 ops/sec ±1.68% (83 runs sampled)
+slugid x 1,006,900 ops/sec ±0.45% (91 runs sampled)
+Fastest decoder is uuid-d64,uuid-base64
 ```
 
 ## License

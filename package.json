@@ -1,6 +1,6 @@
 {
   "name": "uuid-d64",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Codec for uuid and d64",
   "main": "lib/index.js",
   "scripts": {
@@ -17,7 +17,12 @@
     "d64",
     "encode",
     "decode",
-    "codec"
+    "codec",
+    "guid",
+    "uid",
+    "id",
+    "base64",
+    "RFC4122"
   ],
   "author": {
     "name": "Hanju Kim",
