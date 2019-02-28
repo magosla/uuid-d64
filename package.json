@@ -1,0 +1,43 @@
+{
+  "name": "uuid-d64",
+  "version": "1.0.0",
+  "description": "Codec for uuid and d64",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "ava",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanjukim/uuid-d64"
+  },
+  "keywords": [
+    "uuid",
+    "d64",
+    "encode",
+    "decode",
+    "codec"
+  ],
+  "author": {
+    "name": "Hanju Kim",
+    "email": "hanjukim@gmail.com"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/hanjukim/uuid-d64/issues"
+  },
+  "homepage": "https://github.com/hanjukim/uuid-d64#readme",
+  "devDependencies": {
+    "@types/node": "^11.9.5",
+    "ava": "^0.25.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "typescript": "^3.3.3333",
+    "uuid": "^3.3.2"
+  },
+  "dependencies": {
+    "d64": "^1.0.0"
+  }
+}
