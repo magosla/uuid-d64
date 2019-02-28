@@ -1,6 +1,6 @@
 uuid-d64
 =====
-> Compression codec for uuid to d64
+> Compression codec for uuid to d64 (22 bytes)
 
 ## Install
 ```

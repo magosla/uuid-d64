@@ -1,7 +1,7 @@
 {
   "name": "uuid-d64",
   "version": "1.0.3",
-  "description": "Codec for uuid and d64",
+  "description": "Compression codec for uuid to d64 (22 bytes)",
   "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
