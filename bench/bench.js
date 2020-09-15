@@ -1,5 +1,5 @@
 const { Suite } = require('benchmark');
-const uuid = require('uuid');
+const uuid = require('uuid').v4;
 const d64 = require('..');
 const base64 = require('uuid-base64');
 const slugid = require('slugid');
