@@ -1,6 +1,6 @@
 {
   "name": "uuid-d64",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Compression codec for uuid to d64 (22 bytes)",
   "main": "lib/index.js",
   "scripts": {
